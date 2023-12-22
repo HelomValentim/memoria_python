@@ -89,6 +89,6 @@ class MemoryGame:
             messagebox.showinfo("Fim de jogo", f"Sua pontuação é {round(score,2)}")
 
 root = tk.Tk()
-images = [f"imagem{i}.jpeg" for i in range(1, 5)]
+images = [f"imagem{i}.jpg" for i in range(1, 5)]
 game = MemoryGame(root, images)
 root.mainloop()
